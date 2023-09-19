@@ -29,7 +29,7 @@ const Alert = ({ type, children }) => {
       <i className={`pl-2 text-xl  ${listIcon[type]}`}></i>
       <span className=" pl-2 ">{children}</span>
       <button type="button" className=" m-2" onClick={handleDismiss}>
-        <i class="   hover:text-white fa-solid fa-xmark"></i>
+        <i className="   hover:text-white fa-solid fa-xmark"></i>
       </button>
     </div>
   );
