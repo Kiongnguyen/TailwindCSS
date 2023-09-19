@@ -4,6 +4,8 @@ import Accordion from "./components/Accordion/Accordion";
 import IndexAlert from "./components/alert/IndexAlert";
 import ComboBox from "./components/comboBox/ComboBox";
 import Badge from "./components/badge/Badge";
+import Breadcrumbs from "./components/breadcrumbs/Breadcrumbs";
+
 function App() {
   return (
     <>
@@ -12,6 +14,7 @@ function App() {
       <IndexAlert />
       <ComboBox />
       <Badge />
+      <Breadcrumbs />
     </>
   );
 }
