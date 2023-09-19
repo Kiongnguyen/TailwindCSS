@@ -6,6 +6,7 @@ import ComboBox from "./components/comboBox/ComboBox";
 import Badge from "./components/badge/Badge";
 import Breadcrumbs from "./components/breadcrumbs/Breadcrumbs";
 import Button from "./components/button/Button";
+import Checkboxs from "./components/checkboxes/Checkboxes";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Badge />
       <Breadcrumbs />
       <Button />
+      <Checkboxs />
     </>
   );
 }
