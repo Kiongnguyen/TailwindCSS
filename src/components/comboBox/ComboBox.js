@@ -24,7 +24,7 @@ const App = ({ options, value, setSelectedValue }) => {
           onChange={(e) => setSelectedValue(e.target.value)}
           className="w-64 h-8 border-solid border-2 border-sky-500 rounded-md m-5"
         />
-        <datalist id="color" className=" p-20 text-base text-red-100">
+        <datalist id="color">
           {options.map((option) => (
             <option
               key={option.value}
