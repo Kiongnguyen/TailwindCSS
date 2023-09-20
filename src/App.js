@@ -7,6 +7,7 @@ import Badge from "./components/badge/Badge";
 import Breadcrumbs from "./components/breadcrumbs/Breadcrumbs";
 import Button from "./components/button/Button";
 import Checkboxs from "./components/checkboxes/Checkboxes";
+import RadioButton from "./components/radioButton/RadioButton";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Breadcrumbs />
       <Button />
       <Checkboxs />
+      <RadioButton />
     </>
   );
 }
