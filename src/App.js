@@ -10,6 +10,7 @@ import Checkboxs from "./components/checkboxes/Checkboxes";
 import RadioButton from "./components/radioButton/RadioButton";
 import Dialog from "./components/dialog/Dialog";
 import Menu from "./components/menu/Menu";
+import Pagination from "./components/pagination/Pagination";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
       <RadioButton />
       <Dialog />
       <Menu />
+      <Pagination />
     </>
   );
 }
