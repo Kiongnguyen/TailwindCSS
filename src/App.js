@@ -9,7 +9,7 @@ import Button from "./components/button/Button";
 import Checkboxs from "./components/checkboxes/Checkboxes";
 import RadioButton from "./components/radioButton/RadioButton";
 import Dialog from "./components/dialog/Dialog";
-
+import Menu from "./components/menu/Menu";
 function App() {
   return (
     <>
@@ -23,6 +23,7 @@ function App() {
       <Checkboxs />
       <RadioButton />
       <Dialog />
+      <Menu />
     </>
   );
 }
