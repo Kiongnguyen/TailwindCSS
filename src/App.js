@@ -12,6 +12,7 @@ import Dialog from "./components/dialog/Dialog";
 import Menu from "./components/menu/Menu";
 import Pagination from "./components/pagination/Pagination";
 import TransferList from "./components/transferList/TransferList";
+import Treeview from "./components/treeView/TreeView";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Menu />
       <Pagination />
       <TransferList />
+      <Treeview />
     </>
   );
 }
