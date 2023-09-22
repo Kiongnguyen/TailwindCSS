@@ -42,7 +42,7 @@ function Dialog() {
                     setShow(index);
                   }}
                 >
-                  <i class="pl-4 pr-2 text-xl fa-solid fa-user"></i>{" "}
+                  <i className="pl-4 pr-2 text-xl fa-solid fa-user"></i>{" "}
                   <span>{list}</span>
                 </li>
               ))}
@@ -52,7 +52,7 @@ function Dialog() {
                 }}
                 className="w-56 leading-10 cursor-pointer  bg-white active:bg-gray-600  hover:ring-3 hover:bg-gray-200 hover:font-bold"
               >
-                <i class="pl-4 pr-2 text-xl  text-gray-400 fa-solid fa-circle-plus"></i>
+                <i className="pl-4 pr-2 text-xl  text-gray-400 fa-solid fa-circle-plus"></i>
                 <span> {"   "}Add account </span>
               </li>
             </ul>

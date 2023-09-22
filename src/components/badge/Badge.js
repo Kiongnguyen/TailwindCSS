@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const Badge = () => {
   const [count, setCount] = useState(0);
-  console.log(count);
 
   return (
     <div className="bg-white rounded-lg mt-3 px-6 py-8  ring-slate-900/5 shadow-xl grid grid-cols-3  gap-2">

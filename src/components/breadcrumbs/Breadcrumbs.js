@@ -14,7 +14,7 @@ const Breadcrumbs = () => {
       </p>
       <div className="block w-full pt-10">
         <a href={items[0].href}>
-          <i class="fa-solid fa-house"></i>
+          <i className="fa-solid fa-house"></i>
           <span className="hover:font-bold hover:underline text-base">
             {items[0].text}
           </span>
@@ -22,7 +22,7 @@ const Breadcrumbs = () => {
         </a>
         {items.slice(1, 3).map((item, index) => (
           <span key={index} className="">
-            <i class="fa-solid fa-link"></i>
+            <i className="fa-solid fa-link"></i>
             <a
               href={item.href}
               className="text-black hover:font-bold hover:underline text-base "
@@ -33,7 +33,7 @@ const Breadcrumbs = () => {
           </span>
         ))}
         <span>
-          <i class="fa-solid fa-link"></i> Items
+          <i className="fa-solid fa-link"></i> Items
         </span>
       </div>
     </div>

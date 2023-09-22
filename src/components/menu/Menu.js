@@ -59,7 +59,7 @@ function Menu() {
                 }}
               >
                 <a href={`/${list[show]}`}>
-                  <i class="fa-brands fa-codepen"></i> <span>{list}</span>
+                  <i className="fa-brands fa-codepen"></i> <span>{list}</span>
                 </a>
               </li>
             ))}
@@ -95,7 +95,7 @@ function Menu() {
                   setShow(index);
                 }}
               >
-                <i class="fa-brands fa-codepen"></i> <span>{list}</span>
+                <i className="fa-brands fa-codepen"></i> <span>{list}</span>
               </li>
             ))}
           </ul>
@@ -112,7 +112,7 @@ function Menu() {
             className="w-8 h-8  rounded-full bg-white active:bg-gray-200   hover:bg-gray-100  hover:font-bold"
           >
             <span>
-              <i class="fa-solid fa-ellipsis-vertical"></i>
+              <i className="fa-solid fa-ellipsis-vertical"></i>
             </span>
           </button>
         </div>
@@ -131,7 +131,7 @@ function Menu() {
                   setShow(index);
                 }}
               >
-                <i class="fa-brands fa-codepen"></i> <span>{listMax}</span>
+                <i className="fa-brands fa-codepen"></i> <span>{listMax}</span>
               </li>
             ))}
           </ul>

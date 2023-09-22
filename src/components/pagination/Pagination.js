@@ -5,7 +5,7 @@ function Pagination() {
   const [show, setShow] = useState();
 
   return (
-    <div className=" relative h-screen bg-white rounded-lg mt-3 px-6 py-8  ring-slate-900/5 shadow-xl ">
+    <div className=" relative h-44 bg-white rounded-lg mt-3 px-6 py-8  ring-slate-900/5 shadow-xl ">
       <p className="text-left text-base font-bold text-blue-500">
         Tailwind - Pagination
       </p>
@@ -17,7 +17,7 @@ function Pagination() {
             }}
             className="w-10 h-10 p-2 cursor-pointer rounded-full bg-white active:bg-gray-600  hover:ring-3 hover:bg-gray-200 hover:font-bold text-center"
           >
-            <i class="fa-solid fa-forward-step rotate-180"></i>
+            <i className="fa-solid fa-forward-step rotate-180"></i>
           </li>
           <li
             onClick={() => {
@@ -25,7 +25,7 @@ function Pagination() {
             }}
             className="w-10 h-10 p-2 cursor-pointer rounded-full bg-white active:bg-gray-600  hover:ring-3 hover:bg-gray-200 hover:font-bold text-center"
           >
-            <i class="fa-solid fa-caret-left"></i>
+            <i className="fa-solid fa-caret-left"></i>
           </li>
 
           {list.map((list, index) => (
@@ -49,7 +49,7 @@ function Pagination() {
             }}
             className="w-10 h-10 p-2 cursor-pointer rounded-full bg-white active:bg-gray-600  hover:ring-3 hover:bg-gray-200 hover:font-bold text-center"
           >
-            <i class="fa-solid fa-caret-right"></i>
+            <i className="fa-solid fa-caret-right"></i>
           </li>
           <li
             onClick={() => {
@@ -57,7 +57,7 @@ function Pagination() {
             }}
             className="w-10 h-10 p-2 cursor-pointer rounded-full bg-white active:bg-gray-600  hover:ring-3 hover:bg-gray-200 hover:font-bold text-center"
           >
-            <i class="fa-solid fa-forward-step"></i>
+            <i className="fa-solid fa-forward-step"></i>
           </li>
         </ul>
       </div>
